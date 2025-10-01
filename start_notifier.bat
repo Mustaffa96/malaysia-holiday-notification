@@ -1,0 +1,3 @@
+@echo off
+echo Starting Malaysia Holiday Notifier...
+python main.py

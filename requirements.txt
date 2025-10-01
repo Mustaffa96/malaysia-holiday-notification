@@ -1,0 +1,11 @@
+PyQt5>=5.15.0
+requests==2.31.0
+beautifulsoup4==4.12.2
+Pillow==10.1.0
+pyinstaller==6.13.0
+
+# Development dependencies
+flake8==7.3.0
+pylint==3.3.8
+isort==6.0.1
+autoflake==2.2.1

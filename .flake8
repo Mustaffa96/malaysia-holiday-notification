@@ -1,0 +1,13 @@
+[flake8]
+max-line-length = 100
+exclude = .git,__pycache__,build,dist
+ignore = 
+    # E203: whitespace before ':' (black formats differently)
+    E203,
+    # E231: missing whitespace after ',', ';', or ':' (black formats differently)
+    E231,
+    # W503: line break before binary operator (black formats differently)
+    W503
+per-file-ignores =
+    # E0611: PyQt5 import false positives
+    main.py:E0611

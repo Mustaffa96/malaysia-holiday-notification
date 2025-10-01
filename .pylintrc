@@ -1,0 +1,22 @@
+[MASTER]
+# Ignore PyQt5 false positives
+ignored-classes=PyQt5.QtWidgets,PyQt5.QtCore,PyQt5.QtGui
+
+# Disable specific messages
+disable=
+    C0111, # missing-docstring - can enable later when adding documentation
+    C0103, # invalid-name - variable names
+    C0303, # trailing-whitespace - handled by other tools
+    E0611, # no-name-in-module - PyQt5 false positives
+    R0903, # too-few-public-methods
+    R0902, # too-many-instance-attributes
+    R0914, # too-many-locals
+    R0915, # too-many-statements
+
+[FORMAT]
+# Max line length
+max-line-length=100
+
+[TYPECHECK]
+# List of members which are set dynamically and missed by pylint inference
+generated-members=PyQt5.*

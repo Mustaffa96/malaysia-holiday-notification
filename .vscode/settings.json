@@ -1,0 +1,9 @@
+{
+    "python.defaultInterpreterPath": "C:\\Python312\\python.exe",
+    "python.analysis.extraPaths": [
+        "C:\\Python312\\Lib\\site-packages"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": true
+}
