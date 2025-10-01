@@ -1,5 +1,8 @@
 # Malaysia Holiday Notification
 
+<img width="700" height="645" alt="image" src="https://github.com/user-attachments/assets/ab7f0203-67b6-4eab-a674-fc1a616f66fc" />
+
+
 A Windows desktop application that displays notifications for Malaysian holidays. The application scrapes holiday information from [officeholidays.com](https://www.officeholidays.com/countries/malaysia) and provides timely notifications for upcoming holidays.
 
 ## Features
